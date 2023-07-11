@@ -115,10 +115,14 @@ p {
   text-align: center;
   padding: 80px;
 }
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
 .burger:focus {
   outline: 0;
 }
-
 .burger {
   display: none;
 }
